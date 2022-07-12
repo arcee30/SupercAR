@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8A7AC11287C7A8C00ADAEAF /* engine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8A7AC10287C7A8B00ADAEAF /* engine.mp3 */; };
 		A8B655502878DC2E00F5040C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B6554F2878DC2E00F5040C /* AppDelegate.swift */; };
 		A8B655522878DC2E00F5040C /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A8B655512878DC2E00F5040C /* art.scnassets */; };
 		A8B655542878DC2E00F5040C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B655532878DC2E00F5040C /* ViewController.swift */; };
 		A8B655572878DC2E00F5040C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8B655552878DC2E00F5040C /* Main.storyboard */; };
 		A8B655592878DC3000F5040C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8B655582878DC3000F5040C /* Assets.xcassets */; };
 		A8B6555C2878DC3000F5040C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8B6555A2878DC3000F5040C /* LaunchScreen.storyboard */; };
+		A8E006B9287DD4F200D793EF /* mercedesEngine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8E006B8287DD4F200D793EF /* mercedesEngine.mp3 */; };
+		A8E006BB287DD51000D793EF /* audiEngine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8E006BA287DD51000D793EF /* audiEngine.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A8A7AC10287C7A8B00ADAEAF /* engine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = engine.mp3; sourceTree = "<group>"; };
 		A8B6554C2878DC2E00F5040C /* PokeAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokeAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8B6554F2878DC2E00F5040C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8B655512878DC2E00F5040C /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -23,6 +27,8 @@
 		A8B655562878DC2E00F5040C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8B655582878DC3000F5040C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8B6555B2878DC3000F5040C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8E006B8287DD4F200D793EF /* mercedesEngine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mercedesEngine.mp3; sourceTree = "<group>"; };
+		A8E006BA287DD51000D793EF /* audiEngine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audiEngine.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 		A8B6554E2878DC2E00F5040C /* PokeAR */ = {
 			isa = PBXGroup;
 			children = (
+				A8E006BA287DD51000D793EF /* audiEngine.mp3 */,
+				A8E006B8287DD4F200D793EF /* mercedesEngine.mp3 */,
+				A8A7AC10287C7A8B00ADAEAF /* engine.mp3 */,
 				A8B6554F2878DC2E00F5040C /* AppDelegate.swift */,
 				A8B655512878DC2E00F5040C /* art.scnassets */,
 				A8B655532878DC2E00F5040C /* ViewController.swift */,
@@ -124,9 +133,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8B655522878DC2E00F5040C /* art.scnassets in Resources */,
+				A8A7AC11287C7A8C00ADAEAF /* engine.mp3 in Resources */,
 				A8B6555C2878DC3000F5040C /* LaunchScreen.storyboard in Resources */,
 				A8B655592878DC3000F5040C /* Assets.xcassets in Resources */,
 				A8B655572878DC2E00F5040C /* Main.storyboard in Resources */,
+				A8E006BB287DD51000D793EF /* audiEngine.mp3 in Resources */,
+				A8E006B9287DD4F200D793EF /* mercedesEngine.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

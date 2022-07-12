@@ -1,0 +1,17 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "AudiA8Quattro.arreferenceimage"
+    },
+    {
+      "filename" : "audir8.arreferenceimage"
+    },
+    {
+      "filename" : "mercedes2019coupe.arreferenceimage"
+    }
+  ]
+}
